@@ -3,6 +3,7 @@
     {
       "aql": {
         "items.find": {
+          "repo": { "$eq": "ohadz-test-npm-local" },
           "created": { "$before": "${timeframe}" }
         }
       }
