@@ -1,0 +1,16 @@
+2025-07-21 10:21:34 [INFO] Configuring JFrog CLI with server ID 'cli-config-fe2d9ab7'...
+2025-07-21 10:21:34 [INFO] Successfully added JFrog CLI server 'cli-config-fe2d9ab7'.
+2025-07-21 10:21:34 [INFO] Using 'cli-config-fe2d9ab7' as default server.
+2025-07-21 10:21:34 [INFO] Loaded 1 exclusion patterns from exclusions.json
+2025-07-21 10:21:34 [INFO] Searching for artifacts created before '2mo' using filespec 'aql-filespec.json'...
+2025-07-21 10:21:36 [INFO] 6 artifact(s) found. Checking exclusions...
+2025-07-21 10:21:36 [DEBUG] [DRYRUN] jf rt del ohadz-test-npm-local/floor28_sample/-/floor28_sample-1.0.0.tgz --quiet --dry-run
+2025-07-21 10:21:36 [DEBUG] [DRYRUN] jf rt del ohadz-test-npm-local/.npm/floor28_sample/floor28_sample-1.0.0.json --quiet --dry-run
+2025-07-21 10:21:36 [DEBUG] [DRYRUN] jf rt del ohadz-test-npm-local/.npm/floor28_sample/package.json --quiet --dry-run
+2025-07-21 10:21:36 [INFO] [SKIP] Excluded by pattern: ohadz-test-npm-local/Ohadz_NPM_Demo/-/Ohadz_NPM_Demo-1.0.0.tgz
+2025-07-21 10:21:36 [INFO] [SKIP] Excluded by pattern: ohadz-test-npm-local/.npm/Ohadz_NPM_Demo/Ohadz_NPM_Demo-1.0.0.json
+2025-07-21 10:21:36 [INFO] [SKIP] Excluded by pattern: ohadz-test-npm-local/.npm/Ohadz_NPM_Demo/package.json
+2025-07-21 10:21:36 [INFO] Executing 3 deletions using 10 thread(s)...
+2025-07-21 10:21:38 [INFO] [DRYRUN-COMPLETE] jf rt del ohadz-test-npm-local/floor28_sample/-/floor28_sample-1.0.0.tgz --quiet --dry-run
+2025-07-21 10:21:38 [INFO] [DRYRUN-COMPLETE] jf rt del ohadz-test-npm-local/.npm/floor28_sample/floor28_sample-1.0.0.json --quiet --dry-run
+2025-07-21 10:21:38 [INFO] [DRYRUN-COMPLETE] jf rt del ohadz-test-npm-local/.npm/floor28_sample/package.json --quiet --dry-run
