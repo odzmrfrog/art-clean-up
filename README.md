@@ -3,7 +3,7 @@ Parameters :
 - artifactory-url : JFrog Artifactory URL (without the /artifactory suffix)
 - older-than : artifacts age (could be days > 6d, months > 6m or years > 6y)
 - exclusions-file : json file listing files to excludes based on wildcard patterns
-- aql-spec : JFrog Artifactory filespec with the clean up query
+- aql-spec : JFrog Artifactory filespec with the clean up query. The example in this repo includes a specific repo for focused testing, and avoid unintended cleanup.
 - dry-run : allows running the script in dry run mode
 - access-token : JFrog Artifactory bearer token
 - threads : number of workers
