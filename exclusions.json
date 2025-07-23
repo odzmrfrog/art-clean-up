@@ -3,6 +3,7 @@
     "docker-redhat/**",
     "docker-test/**",
     "docker-trial/**",
-    "hza-build-info/bootstrap/1.0.0*"
+    "hza-build-info/bootstrap/1.0.0*",
+    "**/Ohadz_NPM*"
   ]
 }
