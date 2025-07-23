@@ -6,11 +6,11 @@ import sys
 import fnmatch
 import uuid
 import logging
-from datetime import datetime, UTC
+from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed  # [ADDED FOR PARALLELISM]
 
 def setup_logger():
-    log_filename = f"clean_old_artifacts_{datetime.now(UTC).strftime('%Y%m%d_%H%M%S')}.log"
+    log_filename = f"clean_old_artifacts_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.log"
     logger = logging.getLogger("clean_old_artifacts")
     logger.setLevel(logging.DEBUG)
 
